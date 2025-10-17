@@ -55,7 +55,7 @@ public class BenchmarkTest02355175 extends HttpServlet {
                     ConsumerSimple cs111 = new ConsumerSimple(service111);
                     name = cs111.getFieldValue();
 
-                    if (value.equals("BenchmarkTest02355")) {
+                    if (value.equals("benchmarktest02355")) {
                         param = name;
                         flag = false;
                     }
